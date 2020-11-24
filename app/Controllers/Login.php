@@ -48,4 +48,15 @@ class Login extends BaseController
         ];
         return view('reset_password', $data);
     }
+
+    public function validateReset()
+    {
+        $data = [
+            'title' => 'Reset Password',
+        ];
+        //validasi email belum termasuk
+        //flash data belum muncul
+        session()->setFlashdata('pesan', 'We have emailed your password reset link');
+        return view('reset_password', $data);
+    }
 }

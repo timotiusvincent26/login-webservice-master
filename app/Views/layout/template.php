@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/all.css">
 </head>
 
-<header class="font-body shadow-md bg-white fixed top-0 w-screen">
+<header class="font-body shadow-md bg-white fixed top-0 w-screen z-50">
     <div class="flex justify-between">
         <div class="flex items-center">
             <div>

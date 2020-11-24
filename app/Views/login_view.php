@@ -59,7 +59,7 @@
             <span class="flex justify-center">Atau</span>
             <div class="flex justify-center mt-4 mb-4">
                 <div class="bg-gray-400 flex justify-center py-1 rounded-full w-64 transform hover:scale-105 shadow-2xl duration-300 hover:bg-gray-200">
-                    <img src="/img/google.png" alt="google" width="40" height="40" class="mr-4">
+                    <img src="/img/logo.png" alt="google" width="40" height="40" class="mr-4">
                     <h3 class="flex items-center cursor-pointer hover:text-blue-600">Login with SIPADU</h3>
                 </div>
             </div>

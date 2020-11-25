@@ -14,6 +14,7 @@ class Login extends BaseController
         ];
         return view('login_view', $data);
     }
+
     public function masuk()
     {
         if (!$this->validate([
@@ -37,7 +38,7 @@ class Login extends BaseController
         }
         echo 'Halaman Utama';
     }
-    //--------------------------------------------------------------------
+
     public function reset()
     {
         session();
@@ -58,5 +59,16 @@ class Login extends BaseController
         //flash data belum muncul
         session()->setFlashdata('pesan', 'We have emailed your password reset link');
         return view('reset_password', $data);
+    }
+  
+    public function loginsipadu()
+    {
+        session();
+        $validation = \Config\Services::validation();
+        $data = [
+            'title' => 'Login SIPADU',
+            'validation' => $validation
+        ];
+        return view('loginsipadu_view', $data);
     }
 }

@@ -1,4 +1,5 @@
 <?= $this->extend('layout/template'); ?>
+
 <?= $this->section('content'); ?>
 <script src="/js/main.js"></script>
 <div class="h-screen flex justify-center items-center self-center">

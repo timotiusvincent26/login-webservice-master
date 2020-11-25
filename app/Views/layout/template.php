@@ -10,23 +10,26 @@
 </head>
 
 <header class="font-body shadow-md bg-white fixed top-0 w-screen z-50">
-    <div class="flex justify-between">
-        <div class="flex items-center">
-            <div>
-                <img src="/img/logo polstat.jpg" class="w-20 p-3 ml-0 sm:ml-12" alt="logo polstat">
+    <div class="shadow-xl bg-white fixed w-full z-50">
+        <div class="px-20 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-16 h-16 rounded-full bg-gray-100 mr-3">
+                        <img src="/img/STISlogo.png" alt="logo polstat">
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold w-72 text-blue-500 leading-tight align-top">SISTEM INFORMASI DATABASE ALUMNI AIS/STIS/POLSTAT STIS</h1>
+                    </div>
+                </div>
+                <div class="flex justify-end">
+                    <nav>
+                        <ul class="flex gap-x-10 font-bold">
+                            <li><a href="/" class="hover:text-blue-500 border-b-2 border-white hover:border-blue-500">Login</a></li>
+                            <li><a href="/register" class="hover:text-blue-500 border-b-2 border-white hover:border-blue-500">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div>
-                <h1 class="font-bold sm:text-lg text-sm text-blue-700">SISTEM INFORMASI DATABASE</h1>
-                <h1 class="font-bold sm:text-lg text-sm text-blue-700">ALUMNI AIS/STIS/POLSTAT STIS</h1>
-            </div>
-        </div>
-        <div class="sm:mr-16 lg:mr-20 xl:mr-32 mr-8 flex items-center">
-            <nav>
-                <ul class="flex gap-x-10 font-bold">
-                    <li><a href="/" class="hover:text-blue-600 hover:underline">Login</a></li>
-                    <li><a href="/register" class="hover:text-blue-600 hover:underline">Register</a></li>
-                </ul>
-            </nav>
         </div>
     </div>
 </header>

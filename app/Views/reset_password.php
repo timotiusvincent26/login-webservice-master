@@ -1,4 +1,5 @@
 <?= $this->extend('layout/template'); ?>
+
 <?= $this->section('content'); ?>
 <div class="h-screen flex justify-center items-center">
     <div class="w-3/4 bg-white shadow-md">

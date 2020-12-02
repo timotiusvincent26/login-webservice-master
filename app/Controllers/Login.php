@@ -60,7 +60,7 @@ class Login extends BaseController
         session()->setFlashdata('pesan', 'We have emailed your password reset link');
         return view('reset_password', $data);
     }
-  
+
     public function loginsipadu()
     {
         session();
@@ -70,5 +70,16 @@ class Login extends BaseController
             'validation' => $validation
         ];
         return view('loginsipadu_view', $data);
+    }
+
+    public function resetpassword()
+    {
+        session();
+        $validation = \Config\Services::validation();
+        $data = [
+            'title' => 'Reset Password',
+            'validation' => $validation
+        ];
+        return view('reset_password_view', $data);
     }
 }

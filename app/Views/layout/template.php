@@ -40,6 +40,6 @@
     <?= $this->renderSection('content'); ?>
 </body>
 
-<footer class="text-black flex justify-center items-center underline h-16 fixed bottom-0 w-screen">Copyright &copy;2020 PKL STIS 60</footer>
+<footer class="text-black flex justify-center items-center underline h-16 absolute bottom-0 w-screen">Copyright &copy;2020 PKL STIS 60</footer>
 
 </html>

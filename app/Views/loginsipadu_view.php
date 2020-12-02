@@ -5,8 +5,8 @@
     <div class="flex justify-center items-center">
         <form style="width: 470px;" method="POST" action="register/terdaftar" class="bg-gray-200 py-6 rounded-3xl shadow-2xl transform translate-y-32 sm:translate-y-0">
             <?= csrf_field(); ?>
-            <img src="/img/logo sipadu.jpg" alt="logo sipadu" class="w-24 mx-auto">
-            <h2 class="text-4xl mt-2 -mb-2 text-center">Masukkan Akun SIPADU</h2>
+            <img src="/img/logo.png" alt="logo sipadu" class="w-24 mx-auto">
+            <h2 class="text-4xl mt-2 mb-4 text-center">Masukkan Akun SIPADU</h2>
             <div class="-mt-4 mx-8 py-2 px-0 border-b-2 <?= ($state) ? 'border-blue-600' : ' border-gray-600'; ?>" style="display: grid;grid-template-columns: 7% 93%;">
                 <div class="flex justify-center items-center relative h-10">
                     <i class="i fas fa-user <?= ($state) ? 'text-blue-700' : 'opacity-50'; ?> duration-500"></i>
